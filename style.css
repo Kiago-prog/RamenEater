@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #B8E3E9;
+}
+
+h1 {
+    background-color: #B8E3E9;
+    color: #0b2e33;
+    padding: 15px 0;
+    font-size: 25px;
+}
+#ramen-list img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+#ramen-detail img {
+    max-width: 100%;
+    height: auto;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.menu-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 15px;
+    overflow-x: auto;
+    background-color: #4F7C82;
+    border-bottom: 2px solid #964734;
+    white-space: nowrap;
+}
+
+.menu-container img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.25s;
+}
+
+.menu-container img:hover {
+    transform: scale(1.1);
+}
+
+#ramen-detail {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #4F7C82;
+    border: 2px solid #964734;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 400px;
+    
+}
+
+#ramen-detail img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+form {
+    background-color: #B8E3E9;
+    padding: 20px;
+    width: 20%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    text-align: left;
+    border: 2px solid skyblue;
+    border-radius: 8px;
+}
+
+form label {
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: black;
+    display: block;
+}
+
+form input {
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid black;
+    border-radius: 4px;
+    width: 100%;
+}
+
+form button {
+    padding: 10px;
+    margin-top: 15px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+form button:hover {
+    background-color: burlywood;
+    color: black;
+    transition: background-color 0.3s ease;
+    box-shadow: #B8E3E9;
+}
+#ramen-list img:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+#add-ramen{
+    font: bold;
+    font-size: 25px;
+    color:black;
+    border-radius: 40px;
+    background-color:#00bfff;
+    transition: 0.3s ease;
+}
+#add-ramen:hover{
+    color: #B8E3E9;
+    text-shadow: 0 0 25px #B8E3E9,
+                0 0 50px #B8E3E9;
+    transform: scale(1.1);
+}
