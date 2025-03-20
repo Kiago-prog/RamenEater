@@ -1,24 +1,33 @@
 RAMEN EATER
-Simple overview of use/purpose.
+Used to rate different types of ramen.
 
 Description
-This websit describes some dishes with their ratings and comments from people
+This website describes some dishes with their ratings and comments from people
 
-Getting Started
-Dependencies
-Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-ex. Windows 10
-Installing
-How/where to download your program
-Any modifications needed to be made to files/folders
-Executing program
-How to run the program
-Step-by-step bullets
-code blocks for commands
-Help
-Any advise for common problems or issues.
+Clone the repository
 
-command to run if program contains helper info
+bash
+Copy code
+git clone https://github.com/username/project-name.git
+Install dependencies If it's a Node.js project:
+
+bash
+Copy code
+cd project-name
+npm install
+Or if it's a Python project:
+
+bash
+Copy code
+cd project-name
+pip install -r requirements.txt
+
+For Node.js:
+
+bash
+Copy code
+npm start
+
 Authors
 Contributors names and contact info
 
